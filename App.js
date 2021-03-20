@@ -3,7 +3,6 @@ import * as React from 'react';
 import { Button, View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import App_Home from "./App_Home.js";
 import App_1 from './App_1.js';
@@ -17,7 +16,7 @@ import Fontsetting from "./Fontsetting.js";
 import Test_screen from "./Test_screen.js";
 
 const AppsStack = createStackNavigator();
-// testing
+
 function AppsStackScreen() {
   return (
     <AppsStack.Navigator>

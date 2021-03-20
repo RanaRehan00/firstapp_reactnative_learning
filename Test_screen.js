@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react';
-import { Button, View, Text, ScrollView, FlatList, TouchableOpacity, Alert, StyleSheet, Image, TextInput } from 'react-native';
+import { Button, View, Text, ScrollView, FlatList,TouchableOpacity , Alert, StyleSheet, Image, TextInput } from 'react-native';
 
 var favIcon=require('./Icons/favicon.png');
 var settings=require('./Icons/setting.png');
 var settingsnew=require('./Icons/settingsnew.png');
 var backArrow=require('./Icons/back.png');
 
-class App_4 extends Component {
+class Test_screen extends Component {
 
   constructor(props){
     super(props);
@@ -245,4 +245,4 @@ const styles=StyleSheet.create({
   }
 });
 
-export default App_4;
+export default Test_screen;
