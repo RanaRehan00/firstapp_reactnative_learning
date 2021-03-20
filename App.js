@@ -17,7 +17,7 @@ import Fontsetting from "./Fontsetting.js";
 import Test_screen from "./Test_screen.js";
 
 const AppsStack = createStackNavigator();
-
+// testing
 function AppsStackScreen() {
   return (
     <AppsStack.Navigator>
